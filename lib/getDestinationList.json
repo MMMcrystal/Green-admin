@@ -1,0 +1,87 @@
+{
+	"all": [
+		{
+			"id": "5e5b59f44be7eb194f8f7073",
+			"destination": "站点2",
+			"nearBy": "站点2附近的热门地标",
+			"distance": 200,
+			"pictureList": [],
+			"mainPicture": "img/building/building1.png",
+			"address": null,
+			"context": null
+		},
+		{
+			"id": "5e5b5ae44be76b64785c8a3e",
+			"destination": "站点3",
+			"nearBy": "站点3附近的热门地标",
+			"distance": 300,
+			"pictureList": [],
+			"mainPicture": "img/building/building2.png",
+			"address": null,
+			"context": null
+		},
+		{
+			"id": "5e5b6df54be7cd8aa86851dd",
+			"destination": "站点修改后3号",
+			"nearBy": "站点3附近修改后的地标",
+			"distance": 100,
+			"pictureList": [
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png"
+			],
+			"mainPicture": "img/building/building3.png",
+			"address": "修改后的地址",
+			"context": "修改后的地标描述"
+		},
+		{
+			"id": "5e5c7ee44be739d925d18031",
+			"destination": "站点8",
+			"nearBy": "站点8附近的热门地标",
+			"distance": 800,
+			"pictureList": [
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png"
+			],
+			"mainPicture": "img/building/building4.png",
+			"address": null,
+			"context": null
+		},
+		{
+			"id": "5e5c7eeb4be739d925d18032",
+			"destination": "站点9",
+			"nearBy": "站点9附近的热门地标",
+			"distance": 900,
+			"pictureList": [
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png"
+			],
+			"mainPicture": "img/building/building5.png",
+			"address": null,
+			"context": null
+		},
+		{
+			"id": "5e5ca7694be7f73fb400ae65",
+			"destination": "站点9",
+			"nearBy": "站点9附近的热门地标",
+			"distance": 900,
+			"pictureList": [
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png",
+				"img/AAAAAA&text=no+image.png"
+			],
+			"mainPicture": "img/building/building6.png",
+			"address": "地址1",
+			"context": "地标1的描述"
+		}
+	]
+}

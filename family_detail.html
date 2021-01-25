@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>绿里行迹碳后台管理系统</title>
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/favicon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--external css-->
+  <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="lib/datatables/css/jquery.dataTables.css">
+  
+</head>
+
+<body>
+  <section id="container">
+    <!-- **********************************************************************************************************************************************************
+        TOP BAR CONTENT & NOTIFICATIONS
+        *********************************************************************************************************************************************************** -->
+    <!--header start-->
+    <header class="header black-bg">
+      <div class="sidebar-toggle-box">
+        <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+      </div>
+      <!--logo start-->
+      <a href="index.html" class="logo"><b>绿里行<span>迹</span></b></a>
+      <!--logo end-->
+      <div class="nav notify-row" id="top_menu">
+        <!--  notification start -->
+        <ul class="nav top-menu">
+          <!-- notification dropdown start-->
+          <li id="header_notification_bar" class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="javascript:;">
+              <i class="fa fa-bell-o"></i>
+              <span class="badge bg-warning">7</span>
+              </a>
+            <ul class="dropdown-menu extended notification">
+              <div class="notify-arrow notify-arrow-yellow"></div>
+              <li>
+                <p class="yellow">You have 7 new notifications</p>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <span class="label label-warning"><i class="fa fa-bell"></i></span>
+                  Memory #2 Not Responding.
+                  <span class="small italic">30 mins.</span>
+                  </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <span class="label label-danger"><i class="fa fa-bolt"></i></span>
+                  Disk Space Reached 85%.
+                  <span class="small italic">2 hrs.</span>
+                  </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <span class="label label-success"><i class="fa fa-plus"></i></span>
+                  New User Registered.
+                  <span class="small italic">3 hrs.</span>
+                  </a>
+              </li>
+              <li>
+                <a href="javascript:;">See all notifications</a>
+              </li>
+            </ul>
+          </li>
+          <!-- notification dropdown end -->
+        </ul>
+        <!--  notification end -->
+      </div>
+      <div class="top-menu">
+        <ul class="nav pull-right top-menu">
+          <li><a class="logout" href="login.html">登出</a></li>
+        </ul>
+      </div>
+    </header>
+    <!--header end-->
+    <!-- **********************************************************************************************************************************************************
+        MAIN SIDEBAR MENU
+        *********************************************************************************************************************************************************** -->
+    <!--sidebar start-->
+    <aside>
+      <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" id="nav-accordion">
+          <li class="mt">
+            <a href="index.html">
+              <i class="fa fa-bar-chart-o"></i>
+              <span>首页</span>
+              </a>
+          </li>
+          <li>
+            <a href="userinfo.html">
+              <i class="fa fa-fw fa-user"></i>
+              <span>用户信息管理</span>
+              </a>
+          </li>
+          <li>
+            <a href="family.html" class="active">
+              <i class="fa fa-fw fa-sitemap"></i>
+              <span>碳家族</span>
+            </a>
+          </li>
+          <li>
+            <a href="portrait.html">
+              <i class="fa fa-fw fa-tag"></i>
+              <span>用户画像</span>
+            </a>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-fw fa-paw"></i>
+              <span>碳宠物管理</span>
+            </a>
+            <ul class="sub">
+              <li><a href="pet_user.html">用户宠物管理</a></li>
+              <li><a href="pet_list.html">宠物图鉴</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-fw fa-trophy"></i>
+              <span>用户成就管理</span>
+            </a>
+            <ul class="sub">
+              <li><a href="achievement_user.html">用户成就管理</a></li>
+              <li><a href="achievement_list.html">成就管理</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-fw fa-home"></i>
+              <span>宠物家园管理</span>
+            </a>
+            <ul class="sub">
+              <li><a href="adornment_user.html">用户装饰管理</a></li>
+              <li><a href="adornment_list.html">装饰图鉴</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-fw fa-shopping-bag"></i>
+              <span>碳商城管理</span>
+              </a>
+            <ul class="sub">
+              <li><a href="shop_commodity.html">商品列表</a></li>
+              <li><a href="shop_order.html">订单记录</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="knowledge-base.html">
+              <i class="fa fa-fw fa-tasks"></i>
+              <span>低碳知识库管理</span>
+              </a>
+          </li>
+          <li>
+            <a href="chatbot.html">
+              <i class="fa fa-fw fa-comments-o"></i>
+              <span>问答库管理</span>
+            </a>
+          </li>
+          <li>
+            <a href="cooperation.html">
+              <i class="fa fa-fw fa-list-alt"></i>
+              <span>合作企业管理</span>
+            </a>
+          </li>
+          <li>
+            <a href="map.html">
+              <i class="fa fa-fw fa-map-marker"></i>
+              <span>热门地标</span>
+              </a>
+          </li>
+
+          <li class="sub-menu">
+            <a href="javascript:;">
+              <i class="fa fa-fw fa-book"></i>
+              <span>维护管理</span>
+            </a>
+            <ul class="sub">
+              <li><a href="system_feedback.html">用户反馈</a></li>
+              <li><a href="system_log.html">日志信息</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
+    <!--sidebar end-->
+    <!-- **********************************************************************************************************************************************************
+        MAIN CONTENT
+        *********************************************************************************************************************************************************** -->
+    <!--main content start-->
+    <section id="main-content">
+      <section class="wrapper site-min-height">
+          <h3><i class="fa fa-angle-right"></i> 碳家族</h3>
+        <div class="row mt">
+          <div class="col-lg-12">
+            <div class="row content-panel">
+              <div class="col-md-5 profile-text mt mb centered">
+                <div class="right-divider hidden-sm hidden-xs">
+                  <h4 id="count">3</h4>
+                  <h6>家族人数</h6>
+                  <h4 id="points">32</h4>
+                  <h6>碳积分</h6>
+                </div>
+              </div>
+              <!-- /col-md-4 -->
+              <div class="col-md-6 profile-text">
+                <h3 id="ukName" class="inline-block">幸福一家人</h3>
+                <h6 id="id">id:213</h6>
+                <p id="createUser">创建者：李lll小红</p>
+              </div>
+            </div>
+            <!-- /row -->
+          </div>
+        </div>
+          <div class="row mt">
+              <div class="col-lg-12">
+                  <table id="table_id_example" class="display" style="width:100%">
+
+                  </table>
+
+              </div>
+          </div>
+      </section>
+      <!-- /wrapper -->
+    </section>
+    <!-- /MAIN CONTENT -->
+    <!--main content end-->
+    <!--footer start-->
+    <footer class="site-footer">
+      <div class="text-center">
+        <p>
+           2020 &copy;<strong>Green</strong> 版权所有
+        </p>
+
+        <a href="blank.html#" class="go-top">
+          <i class="fa fa-angle-up"></i>
+          </a>
+      </div>
+    </footer>
+    <!--footer end-->
+  </section>
+  <!-- js placed at the end of the document so the pages load faster -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/jquery-ui-1.9.2.custom.min.js"></script>
+  <script src="lib/jquery.ui.touch-punch.min.js"></script>
+  <script class="include" type="text/javascript" src="lib/jquery.dcjqaccordion.2.7.js"></script>
+  <script src="lib/jquery.scrollTo.min.js"></script>
+  <script src="lib/jquery.nicescroll.js" type="text/javascript"></script>
+  <!--common script for all pages-->
+  <script src="lib/common-scripts.js"></script>
+  <!--script for this page-->
+  <script src="lib/datatables/js/jquery.dataTables.js"></script>
+
+  <script>
+      $(document).ready( function () {
+          var urlName= window.location.search;
+          var pet_id = urlName.split("=")[1];
+          pet_id = decodeURI(pet_id);//将url中的编码转化为汉字
+          console.log(pet_id);
+          // var url = "http://localhost:8080/greenmiracle/petBook/getSinglePet?id="+pet_id;
+
+          var td = $('#table_id_example').DataTable({
+              ajax: {
+                  // url: "http://106.13.10.168:8080/greenmiracle/order/getOrderList",
+                  url: "lib/getFamilyId=1.json",
+                  "type": "GET",
+                  "dataType": "json",
+                  "dataSrc":function(result){
+                      return result.familyMassage.familyMember;
+
+                  },
+                  error: function (XMLHttpRequest, textStatus, errorThrown) {
+                      alert("请求失败");
+                      console.log(XMLHttpRequest.status);
+                      console.log(XMLHttpRequest.readyState);
+                      console.log(textStatus);
+                  }
+              },
+              columns: [
+                  {
+                      data:"userId",
+                      width:"60px",
+                      title:"用户编号"
+                  },
+                  {
+                      data:"userName",
+                      width:"100px",
+                      title:"成员名"
+                  },
+                  {
+                    data:"points",
+                    width:"100px",
+                    title:"碳积分"
+                  },
+                  {
+                    data:"relationship",
+                    width:"100px",
+                    title:"关系"
+                  },
+                  {
+                      data:"time",
+                      width:"200px",
+                      title:"加入时间"
+                  },{
+                      width:"80px",
+                      data:null
+                  }
+              ],
+              columnDefs: [{
+                  targets: 0,
+                  render: function(data, type, row, meta) {
+                      return '<p style="text-align: center;display:block;padding-top: 10px;"><span class="badge" >'+data +'</span></p>';
+                  }
+                  },
+                  {
+                  targets: 4,
+                  render: function(data, type, row, meta) {
+                      return (new Date(data)).Format("yyyy-MM-dd hh:mm:ss");
+                  }
+                  },
+                  {
+                      targets: 5,
+                      "orderable": false,
+                      render: function(data, type, row, meta) {
+                          return '<a type="button" class="btn btn-danger" id="'+ row.userId+'" href="#" onclick="del(' + row.userId + ')" >删除</a>';
+                      }
+                  }
+              ],
+              language: {
+                  //将英文转换为中文
+                  "sProcessing": "处理中...",
+                  "sLengthMenu": "显示 _MENU_ 项结果",
+                  "sZeroRecords": "没有匹配结果",
+                  "sInfo": "显示第 _START_ 至 _END_ 项结果，共 _TOTAL_ 项",
+                  "sInfoFiltered": "(由 _MAX_ 项结果过滤)",
+                  "sInfoPostFix": "",
+                  "sSearch": "搜索:",
+                  "sUrl": "",
+                  "sEmptyTable": "表中数据为空",
+                  "sLoadingRecords": "载入中...",
+                  "sInfoThousands": ",",
+                  "oPaginate": {
+                      "sFirst": "首页",
+                      "sPrevious": "上页",
+                      "sNext": "下页",
+                      "sLast": "末页"
+                  },
+                  "oAria": {
+                      "sSortAscending": ": 以升序排列此列",
+                      "sSortDescending": ": 以降序排列此列"
+                  }
+              },
+              "pagingType": "first_last_numbers",//分页样式，首页尾页与页面编码
+              "aLengthMenu":[20,30,50,100],
+              //保存状态
+              //"stateSave": true,
+              //设置排序
+              "order": [[0, 'asc']],
+              "dom": "<'row'<'col-md-6'l<'#toolbar'>><'col-md-6'f>r>" +
+                  "t" +
+                  "<'row'<'col-md-5 sm-center'i><'col-md-7 text-right sm-center'p>>"
+          });
+      } );
+
+      Date.prototype.Format = function (fmt) { //author: meizz
+          var o = {
+              "M+": this.getMonth() + 1, //月份
+              "d+": this.getDate(), //日
+              "h+": this.getHours(), //小时
+              "m+": this.getMinutes(), //分
+              "s+": this.getSeconds(), //秒
+              "q+": Math.floor((this.getMonth() + 3) / 3), //季度
+              "S": this.getMilliseconds() //毫秒
+          };
+          if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+          for (var k in o)
+              if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+          return fmt;
+      };
+
+      //删除方法
+      del = function(id, name) {
+        var r=confirm("确定删除该家族成员吗？")
+        if (r==true)
+        {
+          var tr = $('#'+id).parent().parent();
+          tr[0].style.display="none";
+        }
+      }
+
+  </script>
+
+</body>
+
+</html>

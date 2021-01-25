@@ -1,0 +1,19 @@
+{
+    "msg": "查询成功",
+    "success": true,
+    "singlePet": {
+        "id": 4,
+        "kindName": "鹿鹿无为",
+        "description": "普通碳宠物",
+        "count": 0,
+        "mainPictureUrl": "img/pet/pet4.png",
+        "pictureUrl": [
+            "img/pet/pet4_1.png",
+            "img/pet/pet4_2.png"
+        ],
+        "moduleUrl": [
+            "img/pet/pet4_fbx1.png",
+            "img/pet/pet4_fbx2.png"
+        ]
+    }
+}

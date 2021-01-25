@@ -1,0 +1,41 @@
+{
+    "msg": "查询成功",
+    "success": true,
+    "petList": [
+        {
+            "ukName": "changenickname",
+            "petKind": 2,
+            "gender": "male",
+            "ukNum": "2001",
+            "mainPicUrl": "img/pet/pet1.png"
+        },
+        {
+            "ukName": "鹿鹿无为",
+            "petKind": 3,
+            "gender": "male",
+            "ukNum": "3022",
+            "mainPicUrl": "img/pet/pet4.png"
+        },
+        {
+            "ukName": "best",
+            "petKind": 4,
+            "gender": "male",
+            "ukNum": "4741",
+            "mainPicUrl": "img/pet/pet5.png"
+        }
+    ],
+    "count": 5,
+    "userMassage": {
+        "id": 2,
+        "ukName": "mike",
+        "gender": "male",
+        "phoneNumber": 1847596544,
+        "address": "紫藤路17号",
+        "description": "幽默帅气的一个人",
+        "potraitUrl": "mke@163.com",
+        "createTime": 1579319643000,
+        "points": 3.4,
+        "allPoints": 8.5,
+        "vip": "0"
+    }
+}

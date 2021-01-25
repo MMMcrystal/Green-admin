@@ -1,0 +1,78 @@
+{
+	"msg": "查询成功",
+	"success": true,
+	"petBookList": [
+		{
+			"id": 2,
+			"kindName": "新年哈士奇",
+			"description": "节日碳宠物",
+			"count": 0,
+			"mainPictureUrl": "img/pet/pet1.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 3,
+			"kindName": "拇指猫",
+			"description": "专属碳宠物",
+			"count": 0,
+			"mainPictureUrl": "img/pet/pet2.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 4,
+			"kindName": "嘿嘿猫",
+			"description": "普通碳宠物",
+			"count": 0,
+			"mainPictureUrl": "img/pet/pet3.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 5,
+			"kindName": "鹿鹿无为",
+			"description": "普通碳宠物",
+			"count": 0,
+			"mainPictureUrl": "img/pet/pet4.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 6,
+			"kindName": "熊猫贝贝",
+			"description": "普通碳宠物",
+			"count": 0,
+			"mainPictureUrl": "img/pet/pet5.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 7,
+			"kindName": "柴犬拉卡",
+			"description": "专属碳宠物",
+			"count": 0,
+			"mainPictureUrl": "img/pet/pet6.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 8,
+			"kindName": "猫爷祖宗",
+			"description": "普通碳宠物",
+			"count": 0,
+			"mainPictureUrl": "img/pet/pet7.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 9,
+			"kindName": "狗狗一家",
+			"description": "专属碳宠物",
+			"count": 0,
+			"mainPictureUrl": "img/pet/pet8.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+    "msg": "查询成功",
+    "success": true,
+    "familyMassage": {
+        "id": 1,
+        "famName": "幸福一家人",
+        "createUser": "李lll小红",
+        "totalPoints": 32,
+        "familyMember": [
+            {
+                "userId": "13",
+                "userName": "李lll小红",
+                "time": 1579233349000,
+                "relationship": "创始人",
+                "points": 19
+            },
+            {
+                "userId": "175",
+                "userName": "saad",
+                "time": 1579237049000,
+                "relationship": "女儿",
+                "points": 1
+            },
+            {   "userId": "56",
+                "userName": "胡费",
+                "time": 1579237049000,
+                "relationship": "父亲",
+                "points": 12
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+	"msg": "查询成功",
+	"businessCooperationList": [
+		{
+			"id": "5e5ce3da4be74d65fdbc0d35",
+			"name": "孙祥",
+			"company": "状语自行车企业",
+			"phoneNumber": "18514785236",
+			"email": "zhuayu@163.com",
+			"title": "商业合作",
+			"context": "希望能够进行商业合作，在你们的商城中出售我们的合作自行车。",
+			"reply": 1,
+			"date": 1583145943468
+		},
+		{
+			"id": "5e5ce5624be74d65fdbc0d36",
+			"name": "王经理",
+			"company": "恒河魅力商城",
+			"phoneNumber": "19785254766",
+			"email": "henhe@163.com",
+			"title": "合作举办线下活动",
+			"context": "希望在6.30日，在我们商城里合作举办一次活动",
+			"reply": 0,
+			"date": 1583146338429
+		},
+		{
+			"id": "5e5cf0f74be7782125b922be",
+			"name": "张晓霞",
+			"company": "鱼鱼企业",
+			"phoneNumber": "13586995477",
+			"email": "7954613@qq.com",
+			"title": "定制碳精灵",
+			"context": "希望能以我们公司的logo为基础，出一款定制精灵",
+			"reply": 0,
+			"date": 1583149303220
+		}
+	],
+	"success": true
+}

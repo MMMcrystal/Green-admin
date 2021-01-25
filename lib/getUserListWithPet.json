@@ -1,0 +1,27 @@
+{
+	"msg":"查询成功",
+	"success":true,
+	"userListWithPet":[
+	{
+		"id":1,
+		"ukName":"鹅鹅鹅",
+		"potraitUrl": "img/avatar/2.jpg",
+		"petCount":3,
+		"vip": "0"
+	},
+	{
+		"id":2,
+		"ukName":"奥迪车",
+		"potraitUrl": "img/avatar/3.jpg",
+		"petCount":5,
+		"vip": "1"
+	},
+	{
+		"id":3,
+		"ukName":"箫里",
+		"potraitUrl": "img/avatar/5.jpg",
+		"petCount":3,
+		"vip": "0"
+	}]
+
+}

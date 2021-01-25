@@ -1,0 +1,36 @@
+{
+    "msg": "查找成功",
+    "success": true,
+    "suggestList": [
+        {
+            "suggestid": 1,
+            "suggestcontext": "test suggest context",
+            "suggesterid": 1,
+            "suggesttime": 1580981462000,
+            "apply": 1,
+            "applycontext": "test suggest context",
+            "applytime": 1580982419000,
+            "handle": 1
+        },
+        {
+            "suggestid": 2,
+            "suggestcontext": "test suggest",
+            "suggesterid": 1,
+            "suggesttime": 1580981955000,
+            "apply": null,
+            "applycontext": null,
+            "applytime": null,
+            "handle": 0
+        },
+        {
+            "suggestid": 3,
+            "suggestcontext": "test suggest context2",
+            "suggesterid": 2,
+            "suggesttime": 1581210816000,
+            "apply": 1,
+            "applycontext": "test suggest context3 reply",
+            "applytime": 1581210845000,
+            "handle": 0
+        }
+    ]
+}

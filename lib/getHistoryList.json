@@ -1,0 +1,42 @@
+{
+	"msg": "查询成功",
+	"historyList": [
+		{
+			"id": 33,
+			"userid": 1,
+			"userNikeName": "test002",
+			"goodsName": "修改后商品1名称",
+			"goodsid": 1,
+			"count": 2,
+			"date": 1585998793000
+		},
+		{
+			"id": 34,
+			"userid": 2,
+			"userNikeName": "test002",
+			"goodsName": "商品2名称",
+			"goodsid": 3,
+			"count": 5,
+			"date": 1585912404000
+		},
+		{
+			"id": 37,
+			"userid": 3,
+			"userNikeName": "test002",
+			"goodsName": "商品2名称",
+			"goodsid": 3,
+			"count": 5,
+			"date": 1585739612000
+		},
+		{
+			"id": 38,
+			"userid": 2,
+			"userNikeName": "test002",
+			"goodsName": "商品2名称",
+			"goodsid": 3,
+			"count": 4,
+			"date": 1585740037000
+		}
+	],
+	"success": true
+}

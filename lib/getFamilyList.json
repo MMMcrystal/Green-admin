@@ -1,0 +1,24 @@
+{
+    "msg": "查询成功",
+    "success": true,
+    "familyList": [
+        {
+            "id": 1,
+            "famName": "幸福一家人",
+            "famNumber": 3,
+            "createUserId": 1,
+            "totalPoints": 32,
+            "createrName": "李lll小红",
+            "createTime": 1579326917000
+        },
+        {
+            "id": 2,
+            "famName": "甜蜜世界",
+            "famNumber": 3,
+            "createUserId": 2,
+            "totalPoints": 16,
+            "createrName": "玉玉yu",
+            "createTime": 1579326917000
+        }
+    ]
+}

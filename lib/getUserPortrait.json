@@ -1,0 +1,42 @@
+{
+	"msg":"查询成功",
+	"success":true,
+	"userListPortrait":[
+	{
+		"id":1,
+		"ukName":"小王",
+		"potraitUrl": "img/avatar/1.jpg",
+		"vip": "0",
+		"tags":[
+			"老年人",
+			"规律",
+			"菜场",
+			"工人"
+		]
+	},
+	{
+		"id":2,
+		"ukName":"cdfesd",
+		"potraitUrl": "img/avatar/3.jpg",
+		"vip": "1",
+		"tags":[
+			"青少年",
+			"偶尔",
+			"学校",
+			"学生"
+		]
+	},
+	{
+		"id":3,
+		"ukName":"cesd",
+		"potraitUrl": "img/avatar/4.jpg",
+		"vip": "0",
+		"tags":[
+			"青年",
+			"规律",
+			"市中心",
+			"白领"
+		]
+	}]
+
+}

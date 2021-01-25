@@ -1,0 +1,86 @@
+{
+	"msg": "查询成功",
+	"success": true,
+	"petBookList": [
+		{
+			"id": 2,
+			"kindName": "一缕阳光",
+			"description": "自行车骑行总计达10公里",
+			"type": "出行",
+			"reward": "碳利息加成2%",
+			"mainPictureUrl": "img/achievement/achievement1.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 3,
+			"kindName": "永攀高峰",
+			"description": "低碳跑酷连续跑3分钟",
+			"type": "游戏",
+			"reward": "碳利息加成2.5%",
+			"mainPictureUrl": "img/achievement/achievement2.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 4,
+			"kindName": "一片森林",
+			"description": "累计减碳1kg",
+			"type": "减碳",
+			"reward": "碳利息加成2.5%",
+			"mainPictureUrl": "img/achievement/achievement3.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 5,
+			"kindName": "爱心萌动",
+			"description": "累计获取碳宠物5只",
+			"type": "宠物",
+			"reward": "碳利息加成1%",
+			"mainPictureUrl": "img/achievement/achievement4.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 6,
+			"kindName": "蜘蛛网",
+			"description": "累计好友40位",
+			"type": "社交",
+			"reward": "碳利息加成4%",
+			"mainPictureUrl": "img/achievement/achievement5.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 7,
+			"kindName": "消费小白",
+			"description": "商城购物购买消费碳积分累计30",
+			"type": "商城",
+			"reward": "碳利息加成1.5%",
+			"mainPictureUrl": "img/achievement/achievement6.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 8,
+			"kindName": "爱心跑鞋",
+			"description": "累计绿色出行200公里",
+			"type": "出行",
+			"reward": "碳利息加成4%",
+			"mainPictureUrl": "img/achievement/achievement7.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 9,
+			"kindName": "落地成盒",
+			"description": "碳碳大作战第一轮敌人死亡",
+			"type": "游戏",
+			"reward": "碳利息加成0.5%",
+			"mainPictureUrl": "img/achievement/achievement8.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"msg": "查询成功",
+	"success": true,
+	"goodsList": [
+		{
+			"id": 1,
+			"goods": "绿萝-附有灵气的植物",
+			"price": 1.2,
+			"description": "让家园水灵灵",
+			"sales": 0,
+			"rest": "∞",
+			"mainPictureUrl": "img/shop/good1.png",
+			"pictureUrls": null
+		},
+		{
+			"id": 3,
+			"goods": "樱桃蛋糕-体力恢复",
+			"price": 2.0,
+			"description": "款待你的碳宠物",
+			"sales": 0,
+			"rest": "∞",
+			"mainPictureUrl": "img/shop/good2.png",
+			"pictureUrls": null
+		},
+		{
+			"id": 4,
+			"goods": "哈士奇-顽皮的碳宠物",
+			"price": 19.9,
+			"description": "让你的家园充满活力",
+			"sales": 0,
+			"rest": 100,
+			"mainPictureUrl": "img/shop/good3.png",
+			"pictureUrls": null
+		},
+		{
+			"id": 5,
+			"goods": "小野花-庄园中的一抹红色",
+			"price": 3.0,
+			"description": "点缀你的家园",
+			"sales": 0,
+			"rest": "∞",
+			"mainPictureUrl": "img/shop/good4.png",
+			"pictureUrls": null
+		},
+		{
+			"id": 7,
+			"goods": "Green餐巾纸",
+			"price": 9.9,
+			"description": "3×100抽，满足家庭需求",
+			"sales": 0,
+			"rest": 0,
+			"mainPictureUrl": "img/shop/good5.png",
+			"pictureUrls": null
+		},
+		{
+			"id": 8,
+			"goods": "鸟牌洗洁精",
+			"price": 19.9,
+			"description": "3秒清除油渍",
+			"sales": 0,
+			"rest": 30,
+			"mainPictureUrl": "img/shop/good6.png",
+			"pictureUrls": null
+		},
+		{
+			"id": 10,
+			"goods": "季丽雅毛巾",
+			"price": 15.8,
+			"description": "妈妈般的肌肤触感",
+			"sales": 0,
+			"rest": 50,
+			"mainPictureUrl": "img/shop/good7.png",
+			"pictureUrls": null
+		},
+		{
+			"id": 11,
+			"goods": "《小王子》系列书籍",
+			"price": 25.9,
+			"description": "孩子的启蒙书",
+			"sales": 0,
+			"rest": 10,
+			"mainPictureUrl": "img/shop/good8.png",
+			"pictureUrls": null
+		}
+	]
+}

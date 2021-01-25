@@ -1,0 +1,20 @@
+{
+	"msg": "查询成功",
+	"success": true,
+	"singleGoods": {
+		"id": 1,
+		"goods": "修改后商品1名称",
+		"price": 120,
+		"description": "修改后商品1描述",
+		"sales": 0,
+		"rest": 20,
+		"mainPictureUrl": "img/AAAAAA&text=no+image.png",
+		"pictureUrls": [
+			"img/AAAAAA&text=no+image.png",
+			"img/AAAAAA&text=no+image.png",
+			"img/AAAAAA&text=no+image.png",
+			"img/AAAAAA&text=no+image.png",
+			"img/AAAAAA&text=no+image.png"
+		]
+	}
+}

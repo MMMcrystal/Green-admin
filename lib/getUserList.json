@@ -1,0 +1,71 @@
+{
+    "msg": "查询成功",
+    "userMassageList": [
+        {
+            "id": 1,
+            "ukName": "test00100000",
+            "gender": "female",
+            "phoneNumber": null,
+            "address": "test0001address05",
+            "description": "test001description",
+            "potraitUrl": "img/avatar/1.jpg",
+            "createTime": 1579237049000,
+            "points": 0,
+            "allPoints": 0,
+            "vip": "0"
+        },
+        {
+            "id": 2,
+            "ukName": "test002",
+            "gender": "male",
+            "phoneNumber": null,
+            "address": "tewst002address",
+            "description": null,
+            "potraitUrl": "img/avatar/2.jpg",
+            "createTime": 1579319643000,
+            "points": 2,
+            "allPoints": 0,
+            "vip": "0"
+        },
+        {
+            "id": 3,
+            "ukName": "test00100000",
+            "gender": "male",
+            "phoneNumber": null,
+            "address": "test0001address05",
+            "description": "test001description",
+            "potraitUrl": "img/avatar/3.jpg",
+            "createTime": 1579326917000,
+            "points": 10,
+            "allPoints": 0,
+            "vip": "1"
+        },
+        {
+            "id": 4,
+            "ukName": "test004",
+            "gender": "female",
+            "phoneNumber": null,
+            "address": "tewst004address",
+            "description": null,
+            "potraitUrl": "img/avatar/4.jpg",
+            "createTime": 1579327063000,
+            "points": 0,
+            "allPoints": 0,
+            "vip": "0"
+        },
+        {
+            "id": 5,
+            "ukName": "test0021",
+            "gender": "male",
+            "phoneNumber": 1234567891,
+            "address": "tewst002address",
+            "description": null,
+            "potraitUrl": "img/avatar/5.jpg",
+            "createTime": 1580180775000,
+            "points": 0,
+            "allPoints": 0,
+            "vip": "0"
+        }
+    ],
+    "success": true
+}

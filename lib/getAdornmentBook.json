@@ -1,0 +1,86 @@
+{
+	"msg": "查询成功",
+	"success": true,
+	"adornmentBookList": [
+		{
+			"id": 2,
+			"kindName": "狗链",
+			"price": 10.1,
+			"description": "碳利息加成1%",
+			"count": 0,
+			"mainPictureUrl": "img/adornment/adornment1.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 3,
+			"kindName": "棒棒糖",
+			"description": "碳利息加成1.2%",
+			"price": "通过活动获取",
+			"count": 0,
+			"mainPictureUrl": "img/adornment/adornment2.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 4,
+			"kindName": "能力树",
+			"description": "碳利息加成3%",
+			"price": 100,
+			"count": 0,
+			"mainPictureUrl": "img/adornment/adornment3.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 5,
+			"kindName": "香蕉挂饰",
+			"description": "碳利息加成1.2%",
+			"price": "通过活动获取",
+			"count": 0,
+			"mainPictureUrl": "img/adornment/adornment4.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 6,
+			"kindName": "热气球",
+			"description": "碳利息加成1%",
+			"price": 12,
+			"count": 0,
+			"mainPictureUrl": "img/adornment/adornment5.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 7,
+			"kindName": "小太阳",
+			"description": "碳利息加成2%",
+			"price": 40,
+			"count": 0,
+			"mainPictureUrl": "img/adornment/adornment6.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 8,
+			"kindName": "气球串",
+			"description": "碳利息加成1%",
+			"price": 10,
+			"count": 0,
+			"mainPictureUrl": "img/adornment/adornment7.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		},
+		{
+			"id": 9,
+			"kindName": "皇冠",
+			"description": "碳利息加成2%",
+			"price": "通过活动活动",
+			"count": 0,
+			"mainPictureUrl": "img/adornment/adornment8.png",
+			"pictureUrl": null,
+			"moduleUrl": null
+		}
+	]
+}

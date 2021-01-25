@@ -1,0 +1,20 @@
+{
+	"msg": "查询成功",
+	"singleDestination": {
+		"id": "5e5ca7694be7f73fb400ae65",
+		"destination": "站点9",
+		"nearBy": "站点9附近的热门地标",
+		"distance": 900,
+		"pictureList": [
+			"img/AAAAAA&text=no+image.png",
+			"img/AAAAAA&text=no+image.png",
+			"img/AAAAAA&text=no+image.png",
+			"img/AAAAAA&text=no+image.png",
+			"img/AAAAAA&text=no+image.png"
+		],
+		"mainPicture": "img/AAAAAA&text=no+image.png",
+		"address": "地址1",
+		"context": "地标1的描述"
+	},
+	"success": true
+}
